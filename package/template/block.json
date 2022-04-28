@@ -1,0 +1,12 @@
+{
+  "apiVersion": 2,
+  "name": "{{ slug }}/{{ blockName }}",
+  "title": "{{ title }}",
+  "description": "{{ description }}",
+  "icon": "{{ icon }}",
+  "category": "{{ category }}",
+  "textdomain": "{{ blockName }}",
+  "editorScript": "file:index.js",
+  "editorStyle": "file:editor.css",
+  "style": "file:style.css"
+}

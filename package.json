@@ -1,0 +1,32 @@
+{
+  "name": "@xylocone/add-block",
+  "version": "v1.0.0-alpha",
+  "description": "Scaffolding tool to add a new Gutenberg block",
+  "type": "module",
+  "main": "./package/index.js",
+  "bin": {
+    "add-block": "./package/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xylocone",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "full site editing",
+    "block theme",
+    "gutenberg block",
+    "block",
+    "scaffolding"
+  ],
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "change-case": "^4.1.2",
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.2",
+    "mustache": "^4.2.0",
+    "scaffold-generator": "^3.0.4"
+  }
+}
